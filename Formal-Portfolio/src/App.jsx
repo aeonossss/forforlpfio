@@ -5,6 +5,7 @@ import LogoLoop from './component/LogoLoop';
 import Waves from './component/Waves';
 import { SiReact } from 'react-icons/si';
 import { DiGithubBadge, DiJsBadge, DiPython } from "react-icons/di";
+import { FaLinkedin } from 'react-icons/fa'
 
 const techLogos = [
   { node: <SiReact />, title: "React", href: "https://react.dev" },
@@ -210,19 +211,36 @@ function App(){
             </div>
 
             <div id='footer'>
-              footer here
               <div className='footer-content'>
-                <h1>EYA ISABEL YALUNG</h1>
+                <div>
+                  <h1>EYA ISABEL YALUNG</h1>
                   <p>Front-End Developer | UI/UX Designer</p>
                   <button className='resume' href=''> Download CV</button>
-
-                  <div>
-                    Wrong Website?
-                    Try:
+                </div>
+                  
+                  <div className="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                      <li><a href="#work">Work</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#interests">Interests</a></li>
+                    </ul>
+                  </div>
+                  <div className='web-href'>
+                    <h4>Wrong Website?</h4>
+                    <p>Try:</p>
                     <button className='designer-port'>Designer Portfolio</button>
+                    <div className="social-icons">
+                    <a href="https://github.com/aeonossss" target="_blank" rel="noopener noreferrer">
+                      <DiGithubBadge size={28} />
+                    </a>
+                    <a href="https://linkedin.com/in/e-yalung" target="_blank" rel="noopener noreferrer">
+                      <FaLinkedin size={24} />
+                    </a>
+                    </div>
                   </div>
                   <hr></hr>
-                  <div>
+                  <div className='rights'>
                     <div>
                      Eya Isabel Yalung © 2025.
                   </div>
@@ -231,7 +249,6 @@ function App(){
                   </div>
                   </div>
               </div>
-
             </div>
       </ClickSpark>
     </div>

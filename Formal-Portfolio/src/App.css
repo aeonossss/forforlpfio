@@ -39,6 +39,7 @@ button {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+ transition: all 0.3s ease-in-out;
 }
 
 button:hover {
@@ -226,12 +227,112 @@ button:active {
 }
 
 .designer-port{
-  background-color: none;
-  border: #24212E;
+  background: transparent;
+  border: 1px solid #48435C;
+  color: #48435C;
+  font-weight: 100;
+}
+
+.designer-port:hover{
+  color: #ffffff;
 }
 
 .footer-content{
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
+.footer-content h1{
+  margin: 0;
+  padding: 0;
+}
+
+.web-href, .resume{
+  display:flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  width: auto;
+}
+
+.resume {
+  display: inline-block;
+  width: fit-content;
+}
+
+.web-href{
+  margin: 0;
+  padding: 0;
+}
+
+.web-href h4{
+  margin: 16px 0 0 0;
+}
+
+.footer-content{
+  display: grid;
+}
+
+.rights{
+  display: flex;
+  gap: 56px;
+}
+
+.social-icons{
+  color: #48435C;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quick-links ul li a {
+  font-size: 16px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.quick-links ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 860px) {
+  #footer {
+    padding: 40px 32px 24px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .rights {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 560px) {
+  #footer {
+    padding: 32px 20px 20px;
+  }
+
+  .footer-links-row {
+    gap: 32px;
+  }
 }
 
 /* ── BORDER GLOW CARD ── */
