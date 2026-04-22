@@ -39,6 +39,7 @@ function App(){
                 <div className='header-links'>
                   <div className='tabs'>
                     <a href='#work'>Work</a>
+                    <a href='#certs'>Certifications</a>
                     <a href='#skills'>Skills</a>
                     <a href='#interests'>Interests</a>
                   </div>
@@ -242,6 +243,7 @@ function App(){
                     <h4>Quick Links</h4>
                     <ul>
                       <li><a href="#work">Work</a></li>
+                      <li><a href="#certs">Certifications</a></li>
                       <li><a href="#skills">Skills</a></li>
                       <li><a href="#interests">Interests</a></li>
                     </ul>
