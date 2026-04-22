@@ -5,7 +5,7 @@ export default function ContactButton() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('youremail@gmail.com');
+    navigator.clipboard.writeText('yalungeya@gmail.com');
     setCopied(true);
     setTimeout(() => setCopied(false), 1500);
   };

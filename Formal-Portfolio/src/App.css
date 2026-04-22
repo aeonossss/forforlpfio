@@ -67,7 +67,7 @@ button:active {
   justify-content: flex-end;
   padding: 24px 32px;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 16px;
 }
 
 .header-links {
@@ -373,6 +373,10 @@ html, body {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
 }
 
 .mainPage {

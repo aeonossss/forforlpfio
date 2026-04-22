@@ -51,7 +51,9 @@ function App(){
                   <p>Front-End Developer | UI/UX Designer</p>
                   <p>Frontend developer focused on bridging functionality and visual design, creating seamless and engaging digital experiences. With a strong UI/UX foundation in design systems, branding, prototyping, and wireframing, I transform ideas into polished, user-centered interfaces that enhance usability and strengthen brand identity.</p>
                   <div className='cta-buttons'>
-                    <button className='resume' style={{ display: 'flex', flexDirection:'row', gap: '8px' }}><MdOutlineFileDownload size={20} />Download CV</button>
+                    <a href='/Yalung-Eya-Resume.pdf' download>
+                      <button className='resume' style={{ display: 'flex', flexDirection:'row', gap: '8px' }}><MdOutlineFileDownload size={20} />Download CV</button>
+                    </a>
                     <ContactButton />
                   </div>
                 </div>
@@ -149,7 +151,7 @@ function App(){
                       <div>
                         <div style={{ gap: '0' }}>
                           <h2>Technical Portfolio</h2>
-                        <a href='https://design-team-todo.netlify.app' className='links' target='_blank' rel='noopener noreferrer'>(THIS SITE) https://design-team-todo.netlify.app</a>
+                        <a href='https://yalung-eya.netlify.app/' className='links' target='_blank' rel='noopener noreferrer'>(THIS SITE) https://yalung-eya.netlify.app/</a>
                         </div>
                          <p>Developed using React and Vite, alongside core web technologies such as HTML, CSS, and JavaScript. It adopts a minimalistic design approach in contrast to the designer portfolio, emphasizing clarity and functionality. The portfolio highlights my work in frontend development and UI/UX design, demonstrating both technical implementation and user-centered design principles.</p>
                       </div>
@@ -231,7 +233,9 @@ function App(){
                 <div>
                   <h1>EYA ISABEL YALUNG</h1>
                   <p>Front-End Developer | UI/UX Designer</p>
-                  <button className='resume' href=''> Download CV</button>
+                  <a href='/Yalung-Eya-Resume.pdf' download>
+                    <button className='resume' href=''> Download CV</button>
+                  </a>
                 </div>
                   
                   <div className="quick-links">
